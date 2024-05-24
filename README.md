@@ -45,4 +45,4 @@ By using justify-around, you ensure that your marquee animation maintains consis
 
 **Author**: [Chirag Chaudhary](https://github.com/chaudhary64)
 
-**Repository**: [Marquee Animation](https://github.com/chaudhary64/Marquee_
+**Repository**: [Marquee Animation](https://github.com/chaudhary64/Marquee_Animation)
