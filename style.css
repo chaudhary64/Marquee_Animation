@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.MarqueeContainer1{ 
+    animation: marquee 15s linear infinite;
+}
+
+.MarqueeContainer2{
+    animation: marquee 15s linear infinite;
+    animation-direction: reverse;
+}
+
+#PauseOnHoverMarquee:hover .MarqueeContainer2{
+    animation-play-state: paused;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+    
+}
